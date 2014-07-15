@@ -8,11 +8,7 @@
 
     <title>Krashi Tirth home page</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="../assets/includes/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="../assets/includes/css/home.css" rel="stylesheet">
+    <?php include("includes/cssLinks.inc.php"); ?>
 
   </head>
 
@@ -24,36 +20,17 @@
 
         <div class="cover-container">
 
-          <div class="masthead clearfix">
-            <div class="inner">
-              <h3 class="masthead-brand">Krashi Tirth</h3>
-              <ul class="nav masthead-nav">
-                <li class="active"><a href="">Weather</a></li>
-                <li><a href="grain_rates.html">Grain Rates</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-            </div>
-          </div>
+          <?php include("includes/header.inc.php"); ?>
 
           <!-- Weather begins -->
-      <div id="weather">      
-        <h1 class="cover-heading">Weather Information</h1>
-        
-          <ul>
-            <li>You are currently located at -------</li>
-            <li>Sunrise                      -------</li>
-            <li>Sunset                       -------</li>
-            <li>Wind                         --------</li>
-            <li>Humidity                     --------</li>
-          </ul>  
-                                       
-      </div>      
+          <div id="weather">      
+            <h1 class="cover-heading">What is Krishi Teerth?</h1>
+            
+              Krishi Teerth is an computerized center, a cabin installed at the campus area of Pilgrimages. This cabin is installed with computer system, internet, LCD T.V screen and two technical staff are appointed. The farmers visiting at Krishi Teerth get new and latest information on agriculture such as improved and certified seeds, fertilizers, agriculture tools and implements, wether fore cast, market report etc.  
+                                           
+          </div>      
 
-          <div class="mastfoot">
-            <div class="inner">
-              <p>Krashi Tirth for <a href="">Suryoday Trust</a>, by <a href="https://twitter.com/dciips">@iipsdc</a>.</p>
-            </div>
-          </div>
+          <?php include("includes/footer.inc.php"); ?>
 
         </div>
 
@@ -61,10 +38,6 @@
 
     </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/includes/js/jquery.min.1.11.1.js"></script>
-    <script src="assets/includes/js/bootstrap.min.js"></script>
+    <?php include("includes/jsLinks.inc.php"); ?>
   </body>
 </html>
