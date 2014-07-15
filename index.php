@@ -8,9 +8,9 @@
     <title>Signin for Krashi Tirth</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="assets/includes/css/include.css" rel="stylesheet">  
+    <link href="assets/css/include.css" rel="stylesheet">  
     <!-- Custom styles for this template -->
-    <link href="assets/includes/css/signin.css" rel="stylesheet">
+    <link href="assets/css/signin.css" rel="stylesheet">
 
   </head>
 
@@ -18,7 +18,7 @@
 
     <div class="container">
 
-      <form class="form-signin" role="form">
+      <form class="form-signin" action="home.php" role="form">
         <h2 class="form-signin-heading">Please sign in</h2>
         <input type="email" class="form-control" placeholder="Userid" required autofocus>
         <input type="password" class="form-control" placeholder="Password" required>
