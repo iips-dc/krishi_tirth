@@ -3,3 +3,6 @@
 
     <!-- Custom styles for this template -->
     <link href="../assets/css/home.css" rel="stylesheet">
+    <style>
+    
+    </style>
