@@ -10,6 +10,7 @@
 
     <!-- Bootstrap core CSS -->
     <?php include "includes/cssLinks.inc.php"; ?>
+    
 
   </head>
 
@@ -33,7 +34,7 @@
 	    	?>
 
             <!-- Weather begins -->
-	    	<div id="weather">      
+	    	<div id="weather" style="margin-top:80px;	">      
 	        	<h2 class="cover-heading">Weather Information at - <?php echo $data['city']['name']; ?> </h2>
 	          
 				<!-- Table for showing Weather forecasting Data -->
