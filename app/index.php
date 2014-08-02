@@ -13,15 +13,15 @@
   </head>
 
   <body>
-
+		
     <div class="site-wrapper">
 
       <div class="site-wrapper-inner">
-
+		
         <div class="cover-container">
-
-          <?php include("includes/header.inc.php"); ?>
-
+	      <!-- including header file -->
+		  <?php include("includes/header.inc.php"); ?>
+			
           <!-- Weather begins -->
           <div id="weather">      
             <h1 class="cover-heading">What is Krishi Teerth?</h1>
